@@ -3,7 +3,7 @@ $team_id,
 $key
 )
 
-while(!(Test-NetConnection Google.com).PingSucceeded){
+while(!(Test-NetConnection 1.1.1.1).PingSucceeded){
     Start-Sleep -Seconds 1
     }
 
